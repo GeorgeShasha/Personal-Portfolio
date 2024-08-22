@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<title>Personal Portfolio - Selaelo M Serumula</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/b50e7ef54b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Image-Logo-2.jpg" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-duotone fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Business Analyst</p>
+                <h1>Hi, I'm <span>Selaelo Serumula</span> <br>from Botlokoa, Limpopo <br>Province in South Africa.</h1>
+            </div>
+        </divd>
+    </div>
+    <!-- ---------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Image-About.jpg" alt="Selaelo M image." >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I'm Selaelo M Serumula and I work at Department of Social Development as a Business Analyst. 
+                         I've worked for large organizations that
+                        demand high levels of expertise and quantifiable results.I have an orderly mind, and I enjoy structure and always approach problems systematically. I have a skill for
+                        systematic thinking into dealing with technical IT issues and managing business procedures. I have great
+                        interpersonal skills, technology-driven aptitude, and keen attention to detail. <br><br>I recently started learning Web Development with Python and Javascript. 
+                        I'm looking for opportunities to learn more about Web Development and 
+                        grow my skills to take on more challenging Web Designs.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills.</p>
+                            <p class="tab-links" onclick="opentab('education')">Education.</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience.</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Web Designs/App Interface</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building App Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024: TSAfrika Foundation</span><br>Business Analyst</li>
+                                <li><span>2006 - 2012: University of Pretoria</span><br>Meturllugical Engineering</li>
+                                <li><span>2006: St. Brendans Catholic</span><br>Grade 12 Senior Certificate</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>George Shasha Capital</span><br>Creditor, Web Development & Business Analyst</li>
+                                <li><span>Department of Social Development</span><br>Web Development & Business Analyst</li>
+                                <li><span>TSAfrika Foundation</span><br>Business Analyst</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------services---------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>We build, create and maintain websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-object-group"></i>
+                    <h2>Web Design</h2>
+                    <p>We create websites and pages to reflect a company's brand and information and 
+                    ensure a user-friendly experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>We gather and evaluate user requirements, in collaboration with product managers 
+                        and engineers and illustrate design ideas using storyboards,
+                         process flows and sitemaps</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!--- --------------------portfolio------------------ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" alt="Web Development">
+                    <div class="layer">
+                        <h3>Web Development with Python and Javascript</h3>
+                        <p>Understanding HTML is the first step toward learning JavaScript. 
+                            Because JavaScript is most commonly used as part of a web page,
+                             which can only be learned through HTML.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="Web Design">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>
+                            Web design is the creation of websites and pages to reflect a 
+                            company's brand and information and ensure a user-friendly experience. 
+                            Appearance and design are incorporated as vital elements whether
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="UX/UI Design">
+                    <div class="layer">
+                        <h3>UX/UI Design</h3>
+                        <p>
+                            User interface developer develops and tweak the user interface of the website design. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more...</a>
+        </div>
+    <div>
+
+<!--- ------------------contacts----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> serumula.selaelo.m@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-retro"></i> 0676176235</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn btn2" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="example@contact.com" required>
+                    <textarea name="Message" col="6" rows="6" placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Selaelo M Serumula.</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.style.right = "0"
+}
+function closemenu() {
+    sidemenu.style.right = "-200px"
+}
+</script>
+</body>
+</html>
