@@ -16,7 +16,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image:url(images/Image-Header-2.jpg);
+    background-image:url(images/selaelo-header.png);
     background-size: cover;
     background-position: center;
 }
@@ -32,10 +32,16 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo {
+nav img {
     width: 250px;
 }
 
+nav i {
+    font-size: 100px;
+}
+ nav i:hover {
+    color: #ff0000;
+ }
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -81,7 +87,7 @@ nav ul li a:hover::after {
 /* ------------about------------ */
 
 #about {
-    padding: 160px 0px;
+    padding: 200px 0px;
     color: #ababab;
 }
 
