@@ -443,7 +443,13 @@ nav .fa-solid {
         background-image: url(images/Image-Header-phone.png);
     }
     
-    .about-col-1 img {
-        margin-top: 20px;
+    #about {
+        margin-top: 100px;
     }
+
+    .about-col-1 img {
+        border: 1px solid #ff0000
+    }
+
+
 }
