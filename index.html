@@ -25,11 +25,7 @@
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
-                <p>Self-taught Frontend Developer</p>
-                <h1>Hi, I'm <span>Selaelo</span><br>from Pretoria, South Africa.</h1>
-            </div>
-            </divd>
+            <div class="header-text"></div>
         </div>
         <!-- ---------about---------- -->
         <div id="about">
@@ -40,7 +36,7 @@
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p>Hi, I'm Selaelo, a self-taught frontend developer from South Africa.
+                        <p>Hi, I'm Selaelo, a frontend developer from South Africa.
                             My tech stack includes HTML, CSS, and JavaScript, and I'm currently diving into TypeScript.
                             I discovered my love for coding through online courses and started building small projects
                             for fun
@@ -89,6 +85,27 @@
             <div class="container">
                 <h1 class="sub-title">Services</h1>
                 <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Frontend Developer</h2>
+                        <p>We build, create, style, maintain and make interactive web pages with
+                            HTML, CSS, and Javascript.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <h2>JavaScript Developer</h2>
+                        <p>We build, create, style, maintain and make interactive web pages with
+                            HTML, CSS, and Javascript.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-file-code"></i>
+                        <h2>Backend Developer</h2>
+                        <p>We build, create, style, maintain and make interactive web pages with
+                            HTML, CSS, and Javascript.</p>
+                        <a href="#">Learn more</a>
+                    </div>
                     <div>
                         <i class="fa-solid fa-code"></i>
                         <h2>Web Design</h2>
@@ -149,7 +166,6 @@
                 </div>
                 <a href="#" class="btn">See more...</a>
             </div>
-            <div>
 
                 <!--- ------------------contacts----------------- -->
                 <div id="contact">
@@ -182,37 +198,15 @@
                     <div class="copyright">
                         <p>Copyright <i class="fa-regular fa-copyright"></i> Selaelo M Serumula.</p>
                     </div>
+                
+
                 </div>
 
-                <script>
+            </div>
+        </div>
+    </div>
 
-                    var tablinks = document.getElementsByClassName("tab-links");
-                    var tabcontents = document.getElementsByClassName("tab-contents");
-                    function opentab(tabname) {
-                        for (tablink of tablinks) {
-                            tablink.classList.remove("active-link");
-                        }
-                        for (tabcontent of tabcontents) {
-                            tabcontent.classList.remove("active-tab");
-                        }
-                        event.currentTarget.classList.add("active-link")
-                        document.getElementById(tabname).classList.add("active-tab");
-                    }
-
-                </script>
-
-                <script>
-
-                    var sidemenu = document.getElementById("sidemenu");
-
-                    function openmenu() {
-                        sidemenu.style.right = "0"
-                    }
-                    function closemenu() {
-                        sidemenu.style.right = "-200px"
-                    }
-                </script>
-
+    <script src="script.js"></script>
 
 </body>
 

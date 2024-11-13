@@ -10,7 +10,7 @@ html {
 }
 body {
     background-color: #080808;
-    color: #fff;
+    color: aliceblue;
 }
 
 #header {
@@ -49,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: aliceblue;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -113,7 +113,7 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: aliceblue;
 }
 
 .tab-titles {
@@ -127,7 +127,7 @@ nav ul li a:hover::after {
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    color: #fff;
+    color: aliceblue;
 }
 
 .tab-links::after {
@@ -197,7 +197,7 @@ nav ul li a:hover::after {
 
 .services-list div a {
     text-decoration: none;
-    color: #fff;
+    color: aliceblue;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -287,8 +287,8 @@ nav ul li a:hover::after {
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #fff;
-    transition: background 0.5s;
+    color: aliceblue;
+    transition: all ease-in 0.5s;
 }
 
 .btn:hover {
